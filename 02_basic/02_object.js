@@ -38,3 +38,21 @@ const obj2 = {
 // const obj3 = Object.assign({},obj1,obj2)
 obj3 = {...obj1,...obj2}
 console.log(obj3);
+
+
+const user = [
+    {
+        id : 1,
+        email: "gpt.gmail.com",
+    },
+    {
+        id : 1,
+        email: "gpqqqqqqqqqqqqqqqt.gmail.com",
+    },
+    {
+        id : 2,
+        email: "gehhpt.gmail.com",
+    }
+]
+
+console.log(user[2].id);
