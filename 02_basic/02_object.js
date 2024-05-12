@@ -55,4 +55,20 @@ const user = [
     }
 ]
 
-console.log(user[2].id);
+// console.log(user[2].id);
+
+// console.log(Object.keys(littlefinger));
+// console.log(Object.values(littlefinger));
+// console.log(Object.entries(littlefinger));
+// console.log(littlefinger.hasOwnProperty('name'));
+
+// Object Destructureing  
+const course ={
+    coursename : "js in Hindi",
+    courseInstructor : "Hitesh",
+    price : "999",
+}
+
+const {courseInstructor} = course;
+console.log(course.courseInstructor);
+console.log(courseInstructor);
