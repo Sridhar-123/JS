@@ -22,3 +22,15 @@ function say() {
 
 const hlo = say();
 console.log(hlo);
+
+function loginUserName(username){
+    if(username===undefined){
+       return console.log("Please enter a username");
+        
+    }
+    
+    return `${username} just loggedin`
+    
+}
+console.log(loginUserName("Sridhar"));
+//console.log(loginUserName());
