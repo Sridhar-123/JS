@@ -72,3 +72,9 @@ const course ={
 const {courseInstructor} = course;
 console.log(course.courseInstructor);
 console.log(courseInstructor);
+
+let navbar = ({company})=>{
+
+}
+
+navbar(company = "hitesh")
