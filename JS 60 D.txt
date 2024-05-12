@@ -1,0 +1,33 @@
+60 Days Roadmap to master JavaScript 🔥
+
+Beginner Topics 👇
+Day 1 : Introduction to JavaScript, The JavaScript Glossary, JavaScript syntax
+Day 2 : Lexical Structure, Expressions, Types
+Day 3 :Variables, Math Operators, Functions
+Day 4 : Immediately-Invoked Function Expressions IIFE
+Day 5 : this
+Day 6 : Arrow Functions
+Day 7 : Loops, Loops and Scope, Arrays
+Day 8 : Regular expressions
+Day 9 : Template Literals
+Day 10 : SemicolonsStrict Mode
+Day 11 : JavaScript Dates
+Day 12 : Math Object
+Day 13,14,15 : Asynchronous programming and Callbacks
+Day 16 : JavaScript Timers
+Day 17, 18, 19 : Promises
+Day 20, 21: Async and Await
+Day 22 : JavaScript Event Loop
+Day 23 : Events
+Day 24, 25, 26 : UI Events
+Day 27 : Forms, controls
+Day 28, 29, 30 : Document and resource loading
+
+Advanced Topics 👇
+
+Day 31-40 : Functional Programming in JS
+Day 40-45 : Advanced Working With Functions
+Day 45-50 : Closures
+Day 50, 51, 52 : Regular Expressions
+Day 52-55 : Unicode in JS
+Day 55- 60 :Storing data in the browser
