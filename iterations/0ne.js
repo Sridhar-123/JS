@@ -39,3 +39,10 @@ userBooks = books.filter((bk)=>{
     return bk.publish >= 1994 && bk.genre ==='History'
 })
   console.log(userBooks);
+
+  const qwe = myNums
+  .map(num=> num+10)
+  .map((num)=> num+40)
+  .filter((num)=> num>=40)
+
+  console.log(qwe);
