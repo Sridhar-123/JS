@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>htnml Events </title>
+</head>
+<body style="background-color: #414141; color: aliceblue;">
+    <h2>Amazing image</h2>
+    <div >
+        <ul id="images">
+            <li><img width="200px" id="photoshop" src="https://images.pexels.com/photos/3561339/pexels-photo-3561339.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="photoshop"></li>
+            <li><img width="200px" id="japan" src="https://images.pexels.com/photos/3532553/pexels-photo-3532553.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
+            <li><img width="200px" id="river" src="https://images.pexels.com/photos/3532551/pexels-photo-3532551.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
+            <li><img width="200px" id="owl"  src="https://images.pexels.com/photos/3532552/pexels-photo-3532552.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="" ></li>
+            <li><img width="200px" id="prayer" src="https://images.pexels.com/photos/2522671/pexels-photo-2522671.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
+            <li><a style="color: aliceblue;" href="https://google.com" id="google">Google</a></li>
+        </ul>
+   </div>
+</body>
+<script>
+//  document.getElementById("owl").onclick = function(){
+//     alert("Hello");
+//  }
+// type , timeSTamp , defaultPrevented
+// target, toElement , srcElement , currentTarget ,
+// clientX , clientY , screenX ,screenY
+// altKey ,CtrlKey , shiftkey, keycode (for typemaster).
+// third parameter in evernt true/false by default are also known as event propagation
+// with event propagation there are two scenario event capturing , event bubleling mostly in market most scenarios are by 
+// event bubbling
+// mostly in some screnarions 
+// document.getElementById("owl").addEventListener('mouseover',function(e){
+//     console.log("Owl Clicked!");
+//     e.stopPropagation();
+// },false)
+
+// document.getElementById("images").addEventListener('mouseover',function(e){
+//     console.log("CLick the ui");
+
+// },false)
+
+// document.getElementById("google").addEventListener('click',function(e){
+//     console.log("Google Clicked!");
+//     e.preventDefault();
+// },false)
+// const node= document.getElementById("images");
+document.getElementById("images").addEventListener('click',function(e){
+     e.target.style.display = "none";
+    
+})
+
+
+
+
+</script>
+
+</html>
