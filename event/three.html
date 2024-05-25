@@ -18,16 +18,41 @@
 //     console.log("You r developer!",date.toLocaleTimeString());
 //  }
 //  setInterval(d,1000)
-const st = function(){
-        console.log("Yeah I m on Fire,😡😡😡😡");
-    }
-document.getElementById("start").addEventListener('click',function(st){
-    const s = setInterval(st,2000)
+let change;
+let s=()=>{
+    console.log("Started");
+}
+let fun = () =>{
+   change =  setInterval(s,2000)
+}
+document.querySelector("#start").addEventListener("click",fun)
+document.querySelector("#stop").addEventListener("click",function(e){
+    // e.preventDefault();
+    clearInterval(change);
 })
-document.querySelector("#stop").addEventListener("click",function(){
-    clearInterval(s);
-    console.log("Button clicked !");
+
+// BG  COLORCHANGER CODE 
+/* {
+    const body = document.querySelector("body");
+
+
+let R,G,B,BD;
+let colorChanger = () =>{
+ R =(Math.random()*266).toFixed(0);
+ G = (Math.random()*266).toFixed(0);
+ B = (Math.random()*266).toFixed(0);
+BD = `rgb(${R},${G},${B})`;
+console.log(BD);
+ body.style.backgroundColor = BD;
+}
+let Changer
+document.querySelector("#start").addEventListener('click',function(){
+   Changer = setInterval(colorChanger,1000)
+});
+document.querySelector("#stop").addEventListener('click',function(){
+  clearInterval(Changer);
 })
+}  */
 
 </script>
 </html>
